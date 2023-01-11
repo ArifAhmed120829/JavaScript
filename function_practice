@@ -1,7 +1,16 @@
 console.log(add(10,20));
-console.log(add(50,50));
+
 
 function add(a,b){
     var sum = a+b;
     return sum;
 }
+function callMyName(name, callback){
+    var myAge = 20;
+    callback(myAge);
+    console.log('Mr. ' + name);
+}
+function hello(age){
+    console.log('my age is: '+age);
+}
+callMyName('Arif',hello);
