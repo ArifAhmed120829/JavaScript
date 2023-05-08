@@ -24,4 +24,5 @@ var cat = {
   };
   
 
-  console.log(cat.meow);
+  console.log('hello'[1]);
+  
